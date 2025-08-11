@@ -7,7 +7,7 @@ It extracts, preprocesses, analyzes, and visualizes gaze fixations to understand
 
 ## Dataset
 
-The raw gaze data used in this project was obtained from an **eye-tracking dataset available on Kaggle**.  
+The raw gaze data used in this project was obtained from an **eye-tracking dataset available on Kaggle** : "https://www.kaggle.com/datasets/hughiephan/dreyeve-mini"
 The dataset contains gaze coordinates associated with video frames, recorded at a higher sampling rate than the video frame rate.  
 Key properties of the data:
 - **Frames range**: 1 – 8992 (some frames missing due to blinks, detection loss, or acquisition artifacts).
