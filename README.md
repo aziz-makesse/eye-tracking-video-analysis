@@ -96,17 +96,29 @@ The project is organized into sequential scripts, each producing intermediate ou
 ## Project Structure
 
 ├── data/
+
 │ ├── frames/ # Extracted video frames
+
 │ └── gaze.csv # Preprocessed gaze data
+
 ├── outputs/
+
 │ ├── metrics/ # Plots & statistics
+
 │ └── videos/ # Heatmap video
+
 ├── 01_extract_frames.py
+
 ├── 02_preprocess_gaze.py
+
 ├── 03_analyze_metrics.py
+
 ├── 04_visualize_analysis.py
+
 ├── 05_generate_heatmap_fixations.py
+
 ├── 06_fixation_stats.py
+
 └── README.md
 
 ---
