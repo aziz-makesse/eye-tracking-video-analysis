@@ -1,0 +1,41 @@
+Etape 1:
+[OK] Extraction terminée, 9001 frames sauvegardées dans data/frames/Type_1/11/
+
+
+Etape 2: 
+fichier gaze.csv
+
+
+Etape 3:
+[INFO] Données gaze : 7558 points, frames 1 - 8992
+[INFO] Pourcentage points dans AOI centrale: 73.66%, bbox (px) = (288.0, 672.0, 270.0, 450.0)
+[INFO] Fixations détectées : 840
+[OK] Métriques sauvegardées dans outputs/metrics
+
+
+Etape 4:
+[OK] Histogramme durées fixations sauvegardé dans outputs/metrics
+[OK] Scatter des positions fixations sauvegardé dans outputs/metrics
+[OK] Visualisations terminées.
+
+
+Etape 5:
+la vidéo a été générée dans outputs/videos
+
+
+Etape 6:
+[INFO] --- Statistiques des fixations ---
+nombre_fixations: 840
+duree_moyenne_frames: 8.26
+duree_mediane_frames: 7.00
+duree_min_frames: 3
+duree_max_frames: 151
+duree_std_frames: 8.27
+total_duree_frames: 6942
+mean_x_px: 457.05
+mean_y_px: 373.59
+std_x_px: 154.55
+std_y_px: 66.00
+duree_q1_frames: 4.00
+duree_q3_frames: 10.00
+[OK] Résumé statistiques sauvegardé dans outputs/metrics\fixations_summary_stats.csv

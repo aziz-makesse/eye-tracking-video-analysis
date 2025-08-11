@@ -1,0 +1,19 @@
+cd C:\Users\TRETEC\Desktop\Projects\projet_eye_tracking>
+
+
+python src/01_extract_frames.py --video data/raw/Type_1/11/video_etg.avi --out_dir data/frames/Type_1/11/
+
+
+python src/02_preprocess_gaze.py --etg data/raw/Type_1/11/etg_samples.txt --frames_dir data/frames/Type_1/11/ --out_csv data/processed/Type_1/11/gaze.csv
+
+
+python src/03_analyze_metrics.py --gaze_csv data/processed/Type_1/11/gaze.csv --frames_dir data/frames/Type_1/11/ --out_dir outputs/metrics
+
+
+python src/04_visualize_analysis.py --fixations_csv outputs/metrics/fixations.csv --out_dir outputs/metrics
+
+
+python src/05_generate_heatmap_fixations.py --frames_dir data/frames/Type_1/11 --fixations_csv outputs/metrics/fixations.csv --out_video outputs/videos/Type_1_11_heatmap_fixations.mp4 --sigma 15 --alpha 0.5
+
+
+python src/06_fixation_stats.py --fixations_csv outputs/metrics/fixations.csv --out_dir outputs/metrics
